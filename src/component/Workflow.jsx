@@ -1,6 +1,7 @@
 import { useState, useCallback } from 'react';
 import { ReactFlow, applyNodeChanges, applyEdgeChanges, addEdge } from '@xyflow/react';
 import '@xyflow/react/dist/style.css';
+import { Button } from '@/components/ui/button';
 
 // const initialNodes = [
 //     { id: 'n1', position: { x: 0, y: 0 }, data: { label: 'Node 1' } },
@@ -30,6 +31,11 @@ export default function Workflow() {
 
     return (
         <div style={{ width: '100vw', height: '100vh' }}>
+
+            <div className="flex min-h-svh flex-col items-center justify-center">
+                <Button
+                >Click me</Button>
+            </div>
             <ReactFlow
                 nodes={nodes}
                 edges={edges}

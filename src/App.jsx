@@ -1,7 +1,6 @@
-import { useState } from 'react'
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Workflow from './components/Workflow'
+import Workflow from './component/Workflow'
 
 function App() {
   return (
