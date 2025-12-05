@@ -5,9 +5,11 @@ import Workflow from './component/Workflow'
 function App() {
   return (
     <>
+      <Workflow />
       <BrowserRouter>
         <Routes>
-          <Route path='/create-workflow' element={<Workflow />} />
+          {/* <Route path='/create-workflow' element={<Workflow />} /> */}
+
         </Routes>
       </BrowserRouter>
     </>
